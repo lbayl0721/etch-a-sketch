@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let btn_popup = document.querySelector("#popup");
     btn_popup.addEventListener("click", function() {
         let size = getSize();
-        creatBoard(size);
+        createBoard(size);
     })
 })
 
